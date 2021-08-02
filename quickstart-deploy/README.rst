@@ -11,6 +11,9 @@ The goal for this scenario is for you to:
 
 Watch the walkthrough: `Quickstart Demonstration <https://youtu.be/qepFNPhrL08>`_
 
+Before continuing with the scenario, ensure that you have set up the
+`prerequisites </README.md#prerequisites>`_.
+
 To complete this scenario, you'll follow these steps:
 
 #. Set the current tutorial directory.
@@ -87,8 +90,8 @@ For example, the Kafka section of the file is as follows:
   spec:
     replicas: 3
     image:
-      application: confluentinc/cp-server-operator:6.0.0.0
-      init: confluentinc/cp-init-container-operator:6.0.0.0
+      application: confluentinc/cp-server-operator:6.1.0.0
+      init: confluentinc/cp-init-container-operator:6.1.0.0
     dataVolumeCapacity: 10Gi
     metricReporter:
       enabled: true
